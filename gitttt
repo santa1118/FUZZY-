@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo">AutoHub Motors</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Find Your Dream Car Today</h2>
+      <p>Quality new and used vehicles at honest prices.</p>
+      <a href="inventory.html" class="button">Browse Inventory</a>
+    </section>
+
+    <div class="container">
+      <h2 class="center">Why Choose Us?</h2>
+      <div class="features">
+        <div class="card"><h3>Quality Cars</h3><p>Every car is inspected before it reaches our lot.</p></div>
+        <div class="card"><h3>Easy Financing</h3><p>Flexible payment plans to fit your budget.</p></div>
+        <div class="card"><h3>Expert Service</h3><p>Our mechanics keep your car running smoothly.</p></div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AutoHub Motors. All rights reserved.</p>
+      <p>12 Main Street, Gweru | Phone: +263 77 000 0000 | info@autohub.example</p>
+    </div>
+  </footer>
+
+</body>
+</html>
