@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | AutoHub Motors</title>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <h1 class="logo">AutoHub Motors</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="inventory.html">Inventory</a></li>
+          <li><a href="financing.html">Financing</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="page-title"><h2>Contact Us</h2><p>We would love to hear from you.</p></div>
+
+      <div class="contact-layout">
+        <section class="info">
+          <h3>Visit Us</h3>
+          <p>12 Main Street, Gweru</p>
+          <h3>Call Us</h3>
+          <p>+263 77 000 0000</p>
+          <h3>Email</h3>
+          <p>info@autohub.example</p>
+          <h3>Hours</h3>
+          <p>Mon - Fri: 8am - 5pm<br>Sat: 8am - 1pm</p>
+        </section>
+
+        <section class="message-form">
+          <h3>Send a Message</h3>
+          <form>
+            <label for="cname">Name</label>
+            <input type="text" id="cname">
+
+            <label for="cemail">Email</label>
+            <input type="email" id="cemail">
+
+            <label for="msg">Message</label>
+            <textarea id="msg" rows="5"></textarea>
+
+            <button type="submit" class="button">Send</button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 AutoHub Motors. All rights reserved.</p>
+      <p>12 Main Street, Gweru | Phone: +263 77 000 0000 | info@autohub.example</p>
+    </div>
+  </footer>
+
+</body>
+</html>
