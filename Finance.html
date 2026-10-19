@@ -39,29 +39,44 @@
         </ol>
       </section>
 
+     </section>
+      
+
       <section class="panel">
         <h3>Apply for Financing</h3>
-        <form>
-          <label for="name">Full Name</label>
-          <input type="text" id="name" placeholder="Your name">
+        <form action="thankyou.html" method="POST">
+          <fieldset>
+            <legend>Personal Information</legend>
 
-          <label for="email">Email</label>
-          <input type="email" id="email" placeholder="you@example.com">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="fullname" required>
 
-          <label for="income">Monthly Income ($)</label>
-          <input type="number" id="income" placeholder="e.g. 1200">
+            <label for="idnum">ID Number *</label>
+            <input type="text" id="idnum" name="idnumber" required>
 
-          <label for="term">Payment Term</label>
-          <select id="term">
-            <option>12 months</option>
-            <option>24 months</option>
-            <option>36 months</option>
-            <option>48 months</option>
-          </select>
+            <label for="phone">Phone *</label>
+            <input type="tel" id="phone" name="phone" required pattern="[0-9+ ]+">
+          </fieldset>
+
+          <label for="income">Monthly Income</label>
+          <input type="number" id="income" name="income" min="0">
+
+          <label for="car">Car You Want</label>
+          <input list="cars" id="car" name="car">
+          <datalist id="cars">
+            <option value="Toyota Corolla">
+            <option value="Honda Fit">
+            <option value="Toyota Hilux">
+          </datalist>
+
+          <label><input type="checkbox" required> I agree to Privacy Policy</label>
+
+          
+        </form>
+      </section>
 
           <button type="submit" class="button">Submit Application</button>
         </form>
-      </section>
     </div>
   </main>
 
